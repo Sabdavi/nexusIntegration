@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>nexusIntegration</artifactId>
-    <version>1.23-SNAPSHOT</version>
+    <version>1.23</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -25,7 +25,7 @@
         <connection>scm:git:git@github.com:Sabdavi/nexusIntegration.git</connection>
         <url>scm:git:git@github.com:Sabdavi/nexusIntegration.git</url>
         <developerConnection>scm:git:git@github.com:Sabdavi/nexusIntegration.git</developerConnection>
-    <tag>v1.0</tag>
+    <tag>v1.23</tag>
   </scm>
 
    <build>

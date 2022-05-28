@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>nexusIntegration</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.11-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -27,6 +27,7 @@
         <connection>scm:git:git@github.com:Sabdavi/nexusIntegration.git</connection>
         <url>scm:git:git@github.com:Sabdavi/nexusIntegration.git</url>
         <developerConnection>scm:git:git@github.com:Sabdavi/nexusIntegration.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
 
    <build>
@@ -42,7 +43,7 @@
            </plugin>
            <plugin>
                <artifactId>maven-deploy-plugin</artifactId>
-               <version>2.8.1</version>
+               <version>2.4</version>
                <executions>
                    <execution>
                        <id>default-deploy</id>
